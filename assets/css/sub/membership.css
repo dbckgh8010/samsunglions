@@ -1,0 +1,54 @@
+* {padding: 0; margin: 0; box-sizing: border-box;}
+.main-page {display: flex; align-items: center; justify-content: center; height: 100vh;}
+.login-wrap {display: flex; flex-direction: column; padding: 40px;}
+.login-inner {width: 340px;}
+.logo {padding-bottom: 50px;}
+.logo img {width: 150px;}
+.title-text {padding-bottom: 30px; font-size: 32px; font-weight: 900; letter-spacing: -2px; color: #172B4D;}
+.title-text span {font-weight: 100;}
+.login {height: 100%;}
+.login-tab {position: relative; width: 340px; margin-bottom: 15px;}
+.login-tab input {width: 100%; height: 32px; padding:14px; height: 48px; border: 2px solid #dfe1e6; border-radius: 5px;}
+.login-tab input:focus {outline: none;}
+.password-inner {position: relative;}
+.password-inner .eye-icon i {position: absolute; top: 50%; right: 15px; transform: translateY(-50%); cursor: pointer;}
+
+.login-controls {display: flex; flex-direction: column; padding-bottom: 50px;}
+.login-controls .remember-id {padding-bottom: 30px; font-size: 14px; color: #4b5264}
+.login-controls .remember-id .remember-check {margin-right: 10px;}
+.login-controls .login-btn {padding: 15px 0; font-size: 16px; font-weight: 600; color: #fff; border-radius: 15px; border: 1px solid #0a65db; background-color: #0a65db; cursor: pointer;}
+.login-controls .login-btn:hover {border: 1px solid #074799; background-color: #074799;}
+
+.login-service {padding-bottom: 20px;}
+.login-service .login-find {display: flex; align-items: center; justify-content: center;}
+
+.find-id a {color: #4b5264;}
+.find-password a {color: #4b5264;}
+.find-password {display: flex; margin-left: 20px;}
+.find-password::before {content: ""; display: flex; width: 1px; height: 16px; margin-right: 20px; background-color: #4b5264;}
+
+.login-info {display: flex; justify-content: space-between;}
+.login-info span {font-size: 13px;}
+.login-info .info-link a {font-size: 13px; color: #4b5264; border-bottom: 1px solid #4b5264;}
+
+
+.banner-inner {position: relative; width: 550px; height: 830px; margin-left: 5%; padding: 46px 42px; background: conic-gradient(from 130deg at 43% 62.65%, #030813 0deg, #06325E 360deg); border-radius: 30px; overflow: hidden;}
+.banner-inner::before {content: ""; position: absolute; bottom: -1px; right: -1px; display: flex; width: 460px; height: 544px; background: url("../../img/sub/membership/main_banner.png") no-repeat center / cover;}
+.banner-title {margin-bottom: 20px; font-size: 32px; line-height: 48px; letter-spacing: -3px; color: #fff;}
+.banner-text {font-size: 20px; line-height: 30px; letter-spacing: -2px; color: #fff;}
+
+
+@media (max-width: 1024px) {
+    .main-page {flex-direction: column; height: 100%; padding-bottom: 50px;}
+}
+@media (max-width: 768px) {
+    .banner-inner {width: 400px;}
+}
+@media (max-width: 480px) {
+    .login-inner {width: 280px;}
+    .login-wrap {padding: 20px;}
+    .login-tab {width: 280px;}
+    .login-info {flex-direction: column; align-items: center; justify-content: center;}
+    .login-info .info-text {padding-bottom: 10px;}
+    .banner-inner {display: none;}
+}

@@ -20,9 +20,9 @@
 .box1 .box-link {text-align: left; background-color: #fff200; clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);}
 .box2 .box-link {flex-direction: row-reverse; text-align: right; background-color: #00b0ff; clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%);}
 .box1 .box-link .box-name {color: #2e2e2e;}
-.box1 .box-link .box-title {color: #000;}
+.box1 .box-link .box-title {color: #000; font-weight: 100;}
 .box2 .box-link .box-mame {color: #fff;}
-.box2 .box-link .box-title {color: #fff;}
+.box2 .box-link .box-title {color: #fff; font-weight: 100;}
 .box2 .icon-tab .icon-img img {transform: rotate(180deg);}
 .box-link:hover {width: 600px;}
 .box-link:hover .icon-tab {display: flex;}

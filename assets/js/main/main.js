@@ -40,7 +40,7 @@ $(document).ready(function() {
         slidesPerView: 5,
         grabCursor: false,
         loop: true,
-        autoplay: {delay: 3000},
+        autoplay: {delay: 1000},
         breakpoints: {
             0: {
                 slidesPerView: 1,

@@ -6,7 +6,7 @@ figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
     margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;line-height:100%;
 }
 body *{-webkit-tap-highlight-color: rgba(0,0,0,0);}
-html,body{font-size:16px; font-family:'Noto Sans Korean','NanumGothic','gulim',sans-serif;}
+html,body{font-size:16px;}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,small{display:block;}
 blockquote,q{quotes:none;}
 mark{background-color:#ff9;color:#333;font-style:italic;font-weight:bold;}

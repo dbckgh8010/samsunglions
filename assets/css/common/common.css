@@ -14,6 +14,8 @@
 .sub-menu-wrap .sub-menu-list .sub-list-link {color: #fff;}
 .gnb-bg {position: absolute; top: 0; left: 0; width: 100%; height: 0; background-color: #1975ba; transition: all 0.2s;  z-index: 1;}
 .nav .mo-nav {display: none;}
+.menu-list:hover > a {color: #fff200 !important;}
+.sub-menu-wrap a:hover {border-bottom: 2px solid #fff200; color: #fff200 !important;}
 
 /*메뉴가 열릴때*/
 .header.open .logo .logo-link {background: url("../../img/common/logo-white.png") no-repeat center / cover;}
